@@ -30,239 +30,216 @@
 		"oAP": "\/Gemfile.lock",
 		"oF": 0
 		},
-	"\/images\/baguettes.jpg": {
+	"\/products.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/products.rb",
+		"oF": 0
+		},
+	"\/Public\/images\/baguettes.jpg": {
 		"ft": 16384,
 		"iS": 890765,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/baguettes.jpg",
+		"oAP": "\/Public\/images\/baguettes.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/images\/Banana-Mini-Loaves.png": {
+	"\/Public\/images\/Banana-Mini-Loaves.png": {
 		"ft": 32768,
 		"iS": 450406,
 		"oA": 0,
-		"oAP": "\/images\/Banana-Mini-Loaves.png",
+		"oAP": "\/Public\/images\/Banana-Mini-Loaves.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/Black+&+White+Cookie.jpg": {
+	"\/Public\/images\/Black+&+White+Cookie.jpg": {
 		"ft": 16384,
 		"iS": 42963,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/Black+&+White+Cookie.jpg",
+		"oAP": "\/Public\/images\/Black+&+White+Cookie.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/blueberry-muffin.jpg": {
+	"\/Public\/images\/blueberry-muffin.jpg": {
 		"ft": 16384,
 		"iS": 46415,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/blueberry-muffin.jpg",
+		"oAP": "\/Public\/images\/blueberry-muffin.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/bread.jpg": {
+	"\/Public\/images\/bread.jpg": {
 		"ft": 16384,
 		"iS": 222900,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/bread.jpg",
+		"oAP": "\/Public\/images\/bread.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/brooklyn-blackout.jpg": {
+	"\/Public\/images\/brooklyn-blackout.jpg": {
 		"ft": 16384,
 		"iS": 299874,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/brooklyn-blackout.jpg",
+		"oAP": "\/Public\/images\/brooklyn-blackout.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/cakes.jpg": {
+	"\/Public\/images\/cakes.jpg": {
 		"ft": 16384,
 		"iS": 609694,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/cakes.jpg",
+		"oAP": "\/Public\/images\/cakes.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/images\/cheddar-biscuit.jpg": {
+	"\/Public\/images\/cheddar-biscuit.jpg": {
 		"ft": 16384,
 		"iS": 36356,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/cheddar-biscuit.jpg",
+		"oAP": "\/Public\/images\/cheddar-biscuit.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/cookies.jpg": {
+	"\/Public\/images\/cookies.jpg": {
 		"ft": 16384,
 		"iS": 19801,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/cookies.jpg",
+		"oAP": "\/Public\/images\/cookies.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/images\/donuts.jpeg": {
+	"\/Public\/images\/donuts.jpeg": {
 		"ft": 16384,
 		"iS": 77788,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/donuts.jpg",
+		"oAP": "\/Public\/images\/donuts.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/hands copy.jpg": {
+	"\/Public\/images\/hands copy.jpg": {
 		"ft": 16384,
 		"iS": 51975,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/hands copy.jpg",
+		"oAP": "\/Public\/images\/hands copy.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/images\/hands.jpg": {
+	"\/Public\/images\/hands.jpg": {
 		"ft": 16384,
 		"iS": 51975,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/hands.jpg",
+		"oAP": "\/Public\/images\/hands.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/images\/levain.jpeg": {
+	"\/Public\/images\/levain.jpeg": {
 		"ft": 16384,
 		"iS": 109556,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/levain.jpg",
+		"oAP": "\/Public\/images\/levain.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/miche.jpeg": {
+	"\/Public\/images\/miche.jpeg": {
 		"ft": 16384,
 		"iS": 110200,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/miche.jpg",
+		"oAP": "\/Public\/images\/miche.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/muffins.jpg": {
+	"\/Public\/images\/muffins.jpg": {
 		"ft": 16384,
 		"iS": 359023,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/muffins.jpg",
+		"oAP": "\/Public\/images\/muffins.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/images\/red-velvet.jpg": {
+	"\/Public\/images\/red-velvet.jpg": {
 		"ft": 16384,
 		"iS": 120923,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/red-velvet.jpg",
+		"oAP": "\/Public\/images\/red-velvet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/rugelach.jpeg": {
+	"\/Public\/images\/rugelach.jpeg": {
 		"ft": 16384,
 		"iS": 98433,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/rugelach.jpg",
+		"oAP": "\/Public\/images\/rugelach.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/rustica.jpeg": {
+	"\/Public\/images\/rustica.jpeg": {
 		"ft": 16384,
 		"iS": 79127,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/rustica.jpg",
+		"oAP": "\/Public\/images\/rustica.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/index.html": {
+	"\/Public\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/index.html",
-		"oF": 0
-		},
-	"\/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/main-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/main.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/main.css",
-		"oF": 2,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/products.rb": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/products.rb",
+		"oAP": "\/Public\/index.html",
 		"oF": 0
 		},
 	"\/Public\/main-min.js": {
@@ -301,6 +278,19 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/Public\/main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/Public\/main.css",
+		"oF": 2,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/style.css": {
 		"aP": 1,
@@ -345,6 +335,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/Views\/cookies.erb",
+		"oF": 0
+		},
+	"\/Views\/index.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/Views\/index.erb",
 		"oF": 0
 		},
 	"\/Views\/layout.erb": {

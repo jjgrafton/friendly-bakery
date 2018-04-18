@@ -6,6 +6,11 @@ body, html {
   -o-background-size: cover;
   background-size: cover; }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; }
+
 .header {
   display: flex;
   flex-direction: row;
@@ -17,10 +22,7 @@ body, html {
   font-family: 'Courier New', Courier, monospace;
   color: #09f809;
   font-size: 70px;
-  overflow: hidden;
-  animation-name: fade-in;
-  animation-delay: 3s;
-  animation-duration: 8s; }
+  overflow: hidden; }
 
 @keyframes fade-in {
   0% {
@@ -39,7 +41,8 @@ body, html {
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+  position: relative; }
 
 .topnav a {
   color: #f2f2f2;
@@ -54,6 +57,25 @@ body, html {
 
 .topnav a.active {
   color: green; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.dropdown {
+  position: relative;
+  padding: 14px 16px; }
+
+.drop-nav {
+  position: absolute;
+  display: none; }
+
+.drop-nav li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+
+.dropdown:hover > .drop-nav {
+  display: block; }
 
 /*slideshow styles*/
 .slideshow {
@@ -78,17 +100,8 @@ img, .text-container {
   font-size: 16px;
   text-align: center; }
 
-.text-container {
-  height: 225px;
-  position: relative; }
-
-p.text-container {
-  position: relative;
-  top: -45%;
-  padding: 5px; }
-
 .slide {
-  animation: slide 12s ease infinite; }
+  animation: slide 24s ease infinite; }
 
 @keyframes slide {
   0% {
@@ -164,9 +177,19 @@ p {
   color: #f2f2f2;
   margin-right: 40px; }
 
-.email-button {
+#name {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  color: #09f809; }
+
+#mail {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  color: #09f809; }
+
+.btn {
   border-radius: 10px;
-  background-color: black;
+  background-color: green;
   font-family: 'Courier New', Courier, monospace;
   color: #f2f2f2;
   border: none;
@@ -182,6 +205,9 @@ p {
   height: 100px;
   padding-top: 35px;
   background-color: rgba(0, 0, 0, 0.15);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  color: #09f809;
   margin: 20px;
   display: flex;
   flex-direction: row;
@@ -190,4 +216,4 @@ p {
 .footer-link {
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
-  color: #76ff03 light-green accent-3; }
+  color: #09f809; }
