@@ -107,6 +107,13 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/products.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/products.rb",
+		"oF": 0
+		},
 	"\/Public\/main-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -167,6 +174,41 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/Views\/about.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/Views\/about.erb",
+		"oF": 0
+		},
+	"\/Views\/bread.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/Views\/bread.erb",
+		"oF": 0
+		},
+	"\/Views\/cakes.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/Views\/cakes.erb",
+		"oF": 0
+		},
+	"\/Views\/contact.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/Views\/contact.erb",
+		"oF": 0
+		},
+	"\/Views\/cookies.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/Views\/cookies.erb",
+		"oF": 0
+		},
 	"\/Views\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -179,6 +221,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/Views\/layout.erb",
+		"oF": 0
+		},
+	"\/Views\/muffins.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/Views\/muffins.erb",
 		"oF": 0
 		}
 	},
