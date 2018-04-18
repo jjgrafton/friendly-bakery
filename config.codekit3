@@ -173,6 +173,13 @@
 		"oA": 0,
 		"oAP": "\/Views\/index.html",
 		"oF": 0
+		},
+	"\/Views\/layout.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/Views\/layout.erb",
+		"oF": 0
 		}
 	},
 "hooks": [
