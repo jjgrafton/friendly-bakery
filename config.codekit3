@@ -107,51 +107,44 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/index.html",
-		"oF": 0
-		},
-	"\/main-min.js": {
+	"\/Public\/main-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/main-min-min.js",
+		"oAP": "\/Public\/main-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/main.css": {
+	"\/Public\/main.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/main-min.css",
+		"oAP": "\/Public\/main-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/main.css.map": {
+	"\/Public\/main.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/main.css.map",
+		"oAP": "\/Public\/main.css.map",
 		"oF": 0
 		},
-	"\/main.js": {
+	"\/Public\/main.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/main-min.js",
+		"oAP": "\/Public\/main-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/main.scss": {
+	"\/Public\/main.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -159,20 +152,27 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/style.css",
+		"oAP": "\/Public\/main.css",
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/style.css": {
+	"\/Public\/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/style-min.css",
+		"oAP": "\/Public\/style-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/Views\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/Views\/index.html",
+		"oF": 0
 		}
 	},
 "hooks": [
