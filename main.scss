@@ -1,3 +1,13 @@
+body, html { 
+    height: 100%;
+    background: url("images/hands copy.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+      
+  }
+
 .header {
     display: flex;
     flex-direction: row;
@@ -8,7 +18,7 @@
 
 #friendly-header {
     font-family: 'Courier New', Courier, monospace;
-    color: green;
+    color: rgb(9, 248, 9);
     font-size: 70px;
     overflow: hidden;
     animation-name: fade-in;
@@ -24,10 +34,12 @@
 #bakery-header {
     font-family: 'Courier New', Courier, monospace;
     font-size: 100px;
+    color: #fff;
 }
 
 .topnav {
     background-color: black;
+    text-decoration: none;
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -46,6 +58,7 @@
 
 .topnav a:hover {
     color: #474646;
+    text-decoration: none;
 }
 
 
@@ -53,157 +66,157 @@
     color: green;
 }
 
-.intro-and-email {
-    display: flex;
-    justify-content: space-around;
-}
+/*general styles*/
 
-#intro-text p {
-    border-right: .15em solid green;
-  font-family: "Courier";
-  color: black;
-  font-size: 14px;
-  white-space: nowrap;
+// body{padding: 3em;background-color: #ccc;}
+// html {box-sizing: border-box;}
+// *, *:before, *:after {box-sizing: inherit;}
+
+
+/*slideshow styles*/
+
+.slideshow {
+  width: 625px;
+  margin: 0 auto;
   overflow: hidden;
+  border: solid 1px white;
+}
+
+.slideshow-container {
+  width: 2500px;
+  font-size: 0;
+  transition: 1s ease;
+  height: 225px;
+}
+
+.slideshow-container:hover {
+  animation-play-state: paused;
+}
+
+img, .text-container {
+  width: 625px;
+  height: auto;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+}
+
+.text-container {
+  height: 225px;
+  position: relative;
+}
+
+
+// p {
+//   position: relative;
+//   top: -45%;
+//   padding: 5px;
+// }
+
+.slide {
+  animation: slide 24s ease infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  
+  12.5% {
+    transform: translateX(0%);
+  }
+  
+  25% {
+    transform: translateX(-25%);
+  }
+  
+  37.5% {
+    transform: translateX(-25%);
+  }
+  
+  50% {
+    transform: translateX(-50%);
+  }
+  
+  62.5% {
+    transform: translateX(-50%);
+  }
+  
+  75% {
+    transform: translateX(-75%);
+  }
+  
+  87.5% {
+    transform: translateX(-75%);
+  }
+  
+  99% {
+    transform: translateX(-75%);
+  }
+  
+  100% {
+    transform: translateX(0);
+  }
+}
+
+// .p {
+//   margin-top: 140px;
+//   text-align: center;
+// }
+
+
+.slideshow-and-email {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-top: 30px;
+}
+
+.intro-box {
+    background-color: rgba(0, 0, 0, 0.15);
+    margin: 20px;
+    margin-right: 30px;
 
 }
 
-#intro-text p:nth-child(1) {
-    width: 11.5em;
-    opacity: 0;
-    -webkit-animation: type 2s steps(40, end);
-    animation: type 2s steps(40, end);
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+p {
+    font-family: "Courier";
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 25px;
+    
+}
+
+ .recipe.email {
+    margin-right: 20px;
   }
 
-  #intro-text p:nth-child(2) {
-    width: 11.5em;
-    opacity: 0;
-    -webkit-animation: type2 2s steps(40, end);
-    animation: type2 2s steps(40, end);
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+  .recipe-intro {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 20px;
+      color: #f2f2f2;
+      margin-top: 20px;
+      margin-right: 20px;
+
   }
 
-  #intro-text p:nth-child(3) {
-    width: 11.5em;
-    opacity: 0;
-    -webkit-animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
-    animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
-    -webkit-animation-delay: 4s;
-    animation-delay: 4s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+  .user-name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: #f2f2f2;
   }
 
-  @keyframes type {
-    0% {
-      width: 0;
-    }
-    99.9% {
-      border-right: .15em solid green;
-    }
-    100% {
-      border: none;
-    }
-  }
+  .email-button {
+      border-radius: 10px;
+      background-color: black;
+      font-family: 'Courier New', Courier, monospace;
+        color: #f2f2f2;
+        border: none;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
 
-  @-webkit-keyframes type {
-    0% {
-      width: 0;
-    }
-    99.9% {
-      border-right: .15em solid green;
-    }
-    100% {
-      border: none;
-    }
-  }
-  
-  @keyframes type2 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    99.9% {
-      border-right: .15em solid green;
-    }
-    100% {
-      opacity: 1;
-      border: none;
-    }
-  }
-  
-  @-webkit-keyframes type2 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    99.9% {
-      border-right: .15em solid green;
-    }
-    100% {
-      opacity: 1;
-      border: none;
-    }
-  }
-  
-  @keyframes type3 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  @-webkit-keyframes type3 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
-  }
-  @-webkit-keyframes blink {
-    50% {
-      border-color: tranparent;
-    }
-  }
-
-span{
-    animation: blink 1s infinite;
-  }
-  
-  @keyframes type{ 
-    from { width: 0; } 
-  } 
-  
-  @keyframes type2{
-    0%{width: 0;}
-    50%{width: 0;}
-    100%{ width: 100; } 
-  } 
-  
-  @keyframes blink{
-    to{opacity: .0;}
   }

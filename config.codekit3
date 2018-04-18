@@ -74,6 +74,28 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/hands copy.jpg": {
+		"ft": 16384,
+		"iS": 51975,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/hands copy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/hands.jpg": {
+		"ft": 16384,
+		"iS": 51975,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/hands.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/muffins.jpg": {
 		"ft": 16384,
 		"iS": 359023,
