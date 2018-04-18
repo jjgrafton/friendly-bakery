@@ -34,6 +34,16 @@ class Muffins
     end
 end
 
+class Bakery
+    attr_accessor :bread, :cookies, :cakes, :muffins
+    def initialize(bread, cookies, cakes, muffins)
+        @bread = {}
+        @cookies = {}
+        @cakes = {}
+        @muffins = {}
+    end
+end
+
 rustica = Bread.new("Cabernet Rustica", "Crusty on the outside, soft and airy inside. Made with Cabernet starter from Long Island vineyard.")
 miche = Bread.new("Chardonnay Miche", "Dark wheat-based wine bread. Made with Chardonnay starter from Long Island vineyard.")
 levain = Bread.new("Levain Locale", "The ultimate French table bread. Flavorful and chewy crust, dense interior with faint sour note.")
@@ -45,4 +55,9 @@ red_velvet = Cakes.new("Red Velvet Cake", "Our version of an old Southern recipe
 blueberry = Muffins.new("Blueberry Muffins", "Buttermilk muffins filled with plump, juicy blueberries.")
 banana_nut = Muffins.new("Banana Nut Mini Loaves", "A breakfast favorite…made with fresh, ripe bananas and chopped pecans.")
 cheddar_biscuit = Muffins.new("Cheddar Biscuits", "Light and buttery biscuits laced with sharp cheddar cheese.")
+
+bread_array = [rustica, miche, levain]
+cookies_array = [black_and_white, rugelach, donuts]
+cakes_array = [blackout, red_velvet]
+muffins_array = [blueberry, banana_nut, cheddar_biscuit]
 

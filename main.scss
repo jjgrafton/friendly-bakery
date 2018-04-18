@@ -1,3 +1,5 @@
+
+
 body, html { 
     height: 100%;
     background: url("images/hands copy.jpg") no-repeat center center fixed;
@@ -6,6 +8,12 @@ body, html {
     -o-background-size: cover;
     background-size: cover;
       
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
   }
 
 .header {
@@ -21,9 +29,9 @@ body, html {
     color: rgb(9, 248, 9);
     font-size: 70px;
     overflow: hidden;
-    animation-name: fade-in;
-    animation-delay: 3s;
-    animation-duration: 8s;
+    // animation-name: fade-in;
+    // animation-delay: 3s;
+    // animation-duration: 8s;
 }
 
 @keyframes fade-in {
@@ -95,20 +103,11 @@ img, .text-container {
   text-align: center;
 }
 
-.text-container {
-  height: 225px;
-  position: relative;
-}
 
 
-p.text-container {
-  position: relative;
-  top: -45%;
-  padding: 5px;
-}
 
 .slide {
-  animation: slide 12s ease infinite;
+  animation: slide 24s ease infinite;
 }
 
 @keyframes slide {
@@ -218,9 +217,9 @@ p {
     margin-right: 40px;
   }
 
-  .email-button {
+  .btn {
       border-radius: 10px;
-      background-color: black;
+      background-color: green;
       font-family: 'Courier New', Courier, monospace;
         color: #f2f2f2;
         border: none;
@@ -239,6 +238,9 @@ p {
         height: 100px;
         padding-top: 35px;
         background-color: rgba(0, 0, 0, 0.15);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        color: rgb(9, 248, 9);
         margin: 20px;
         display: flex;
         flex-direction: row;
@@ -248,5 +250,5 @@ p {
  .footer-link {
     font-family: 'Courier New', Courier, monospace;
         font-size: 20px;
-        @extend: #76ff03 light-green accent-4;
+        color: rgb(9, 248, 9);
   }
