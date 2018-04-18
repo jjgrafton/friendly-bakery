@@ -30,12 +30,77 @@
 		"oAP": "\/Gemfile.lock",
 		"oF": 0
 		},
+	"\/images\/baguettes.jpg": {
+		"ft": 16384,
+		"iS": 890765,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/baguettes.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/bread.jpg": {
+		"ft": 16384,
+		"iS": 222900,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/bread.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/cakes.jpg": {
+		"ft": 16384,
+		"iS": 609694,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/cakes.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/cookies.jpg": {
+		"ft": 16384,
+		"iS": 19801,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/cookies.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/muffins.jpg": {
+		"ft": 16384,
+		"iS": 359023,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/muffins.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 0
+		},
+	"\/main-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/main-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/main.css": {
 		"aP": 1,
@@ -53,6 +118,16 @@
 		"oA": 0,
 		"oAP": "\/main.css.map",
 		"oF": 0
+		},
+	"\/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/main-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/main.scss": {
 		"aP": 0,
