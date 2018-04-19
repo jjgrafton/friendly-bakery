@@ -1,5 +1,5 @@
 
-
+//BACKGROUND IMAGE, REMAINS FIXED ON SCROLL
 body, html { 
     height: 100%;
     background: url("images/hands copy.jpg") no-repeat center center fixed;
@@ -9,7 +9,7 @@ body, html {
     background-size: cover;
       
   }
-
+//SUBHEADER FOR EACH PRODUCT PAGE, PLUS ABOUT AND CONTACT PAGES
 .page-header {
     display: flex;
     flex-direction: row;
@@ -18,7 +18,7 @@ body, html {
     margin-left: 10px;
 
   }
-
+//POSITION FOR MAIN FRIENDLY BAKER LOGO ON EACH PAGE
 .header {
     display: flex;
     flex-direction: row;
@@ -26,7 +26,7 @@ body, html {
     align-items: baseline;
     margin-right: 40px;
 }
-
+//STYLE FOR EACH WORD IN FRIENDLY BAKER LOGO
 #friendly-header {
     font-family: 'Courier New', Courier, monospace;
     color: rgb(9, 248, 9);
@@ -40,6 +40,7 @@ body, html {
     color: #fff;
 }
 
+//NAVBAR STYLING
 .topnav {
     background-color: black;
     text-decoration: none;
@@ -51,7 +52,6 @@ body, html {
 }
 
 .topnav a {
-    
     color: #f2f2f2;
     font-family: 'Courier New', Courier, monospace;
     padding: 14px 16px;
@@ -65,35 +65,12 @@ body, html {
     text-decoration: none;
 }
 
-
 .topnav a.active {
     color: green;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0; 
-}
 
-.dropdown {
-  position: relative;
-  padding: 14px 16px;
-}
-
-.drop-nav {
-  position: absolute;
-  display: none;
-}
-
-.drop-nav li {
-  border-bottom: 1px solid rgba(255,255,255,.2);
-}
-
-.dropdown:hover > .drop-nav {
-  display: block;
-}
-
+//STYLING FOR NAME OF EACH PRODUCT ON TEMPLATES
 .product-name {
   font-family: 'Courier New', Courier, monospace;
   color: rgb(9, 248, 9);
@@ -101,6 +78,7 @@ ul {
   text-align: center;
 }
 
+//STYLING FOR PRICE ON TEMPLATES
 .price {
   font-family: 'Courier New', Courier, monospace;
   color: rgb(9, 248, 9);
@@ -110,6 +88,7 @@ ul {
 
 }
 
+//STYLE FOR LAYOUT OF PRODUCTS
 .product-display {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -117,6 +96,7 @@ ul {
   grid-gap: 1em;
 }
 
+//IMAGE SIZE AND STYLE FOR BREAD PAGE
 .bread-image {
   border-style: solid;
   border-width: 2px;
@@ -128,6 +108,7 @@ ul {
   margin-right: auto;
 }
 
+//IMAGE SIZE AND STYLE FOR CAKE PAGE
 .cakes-image {
   border-style: solid;
   border-width: 2px;
@@ -139,6 +120,7 @@ ul {
   margin-right: auto;
 }
 
+//IMAGE SIZE AND STYLE FOR COOKIES PAGE
 .cookies-image {
   border-style: solid;
   border-width: 2px;
@@ -150,6 +132,7 @@ ul {
   margin-right: auto;
 }
 
+//IMAGE SIZE AND STYLE FOR MUFFINS PAGE
 .muffins-image {
   border-style: solid;
   border-width: 2px;
@@ -161,17 +144,13 @@ ul {
   margin-right: auto;
 }
 
-
-
+//HORIZONTAL DISPLAY FOR PRODUCT FEATURES – NECESSARY?
 // .product {
 //   display: flex;
 //   flex-direction: column
 // }
 
-
-
-/*slideshow styles*/
-
+//SLIDESHOW STYLING
 .slideshow {
   width: 625px;
   margin: 0 auto;
@@ -203,12 +182,6 @@ img, .text-container {
   position: relative;
 }
 
-
-p {
-  position: relative;
-  top: -45%;
-  padding: 5px;
-}
 
 .slide {
   animation: slide 24s ease infinite;
@@ -261,7 +234,7 @@ p {
   text-align: center;
 }
 
-
+//STYLE FOR TOP ROW OF HOMEPAGE
 .slideshow-and-email {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -269,19 +242,14 @@ p {
     margin-top: 30px;
 }
 
-p.slideshow-text {
-    font-family: 'Courier New', Courier, monospace;
-      font-size: 20px;
-      color: #f2f2f2;
-      margin: 20px;
-}
-
+//OPAQUE BACKGROUND FOR TEXT BOX ON PAGE
 .intro-box {
     background-color: rgba(0, 0, 0, 0.15);
     margin: 20px;
 
 }
 
+//DROPCAP
 .firstcharacter {
     color: rgb(9, 248, 9);
     float: left;
@@ -293,6 +261,7 @@ p.slideshow-text {
     padding-left: 3px;
   }
 
+  //STYLE OF MAIN BODY TEXT FOR EACH PAGE
 p {
     font-family: "Courier";
     color: #f2f2f2;
@@ -301,10 +270,12 @@ p {
     
 }
 
+//POSITION OF EMAIL FORM
  .recipe.email {
     margin-right: 20px;
   }
 
+//TEXT FOR EMAIL FORM
   .recipe-intro {
       font-family: 'Courier New', Courier, monospace;
       font-size: 20px;
@@ -314,6 +285,7 @@ p {
 
   }
 
+//TEXT FOR TITLES OF INPUT FIELDS ON EMAIL FORM
   .user-name {
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
@@ -321,11 +293,14 @@ p {
     margin-right: 40px;
   }
 
+//STYLE FOR INPUT FIELD
   #name {
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     color: rgb(9, 248, 9);
   }
+
+ //STYLE FOR INPUT FIELD
 
   #mail {
     font-family: 'Courier New', Courier, monospace;
@@ -333,6 +308,7 @@ p {
     color: rgb(9, 248, 9);
   }
 
+//STYLE FOR MATERIALIZE BUTTON
   .btn {
       border-radius: 10px;
       background-color: green;
@@ -349,7 +325,7 @@ p {
 
   }
 
-
+//FOOTER STYLE
   .footer {
         height: 100px;
         padding-top: 35px;
@@ -363,6 +339,7 @@ p {
         justify-content: space-evenly;
   }
 
+//STYLE FOR FOOTER LINKS
  .footer-link {
     font-family: 'Courier New', Courier, monospace;
         font-size: 20px;
