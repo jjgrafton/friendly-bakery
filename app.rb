@@ -18,7 +18,7 @@ end
 
 get "/cookies" do
     @page_title = "Friendly Bakery: Cookies"
-    @black_and_white = Cookies.new("Black and White Cookie", "An iconic, timeless and delicious treat.")
+    @black_and_white = Cookies.new("Black and White Cookie", "An iconic, timeless and delicious treat, loved by generations of New Yorkers.")
     @rugelach = Cookies.new("Rugelach", "An old-world treat. Buttery cookies rolled with nuts, fruit preserves and chocolate.")
     @donuts = Cookies.new("Jelly Donuts", "Tender, airy donuts dusted with sugar and custom-filled with upstate NY fruit preserves.")
     cookies_array = [@black_and_white, @rugelach, @donuts]
@@ -36,7 +36,7 @@ end
 get "/muffins" do
     @page_title = "Friendly Bakery: Muffins"
     @blueberry = Muffins.new("Blueberry Muffins", "Buttermilk muffins filled with plump, juicy blueberries.")
-    @banana_nut = Muffins.new("Banana Nut Mini Loaves", "A breakfast favorite…made with fresh, ripe bananas and chopped pecans.")
+    @banana_nut = Muffins.new("Banana Nut Mini Loaves", "A breakfast favorite made with ripe bananas and chopped pecans.")
     @cheddar_biscuit = Muffins.new("Cheddar Biscuits", "Light and buttery biscuits laced with sharp cheddar cheese.")
     muffins_array = [@blueberry, @banana_nut, @cheddar_biscuit]
     erb :muffins

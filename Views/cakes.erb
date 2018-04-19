@@ -1,4 +1,4 @@
-<div class="container">
+<div class="page-header">
     <div id="friendly-header">
         friendly
     </div>
@@ -10,15 +10,15 @@
 <div class="product-display">
     <div class="product">
         <div class="image-box-type-one">
-        <img src="images/brooklyn-blackout.jpg" alt="Brooklyn Blackout">
+        <img src="images/brooklyn-blackout.jpg" alt="Brooklyn Blackout" class="cakes-image">
         </div>
-        <div class="product-name"><%= blackout.type %></div>
+        <div class="product-name"><%= @blackout.type %></div>
         <p><%= @blackout.description %></p>
         <p class="price"><%= @blackout.price %></p>
     </div>
     <div class="product">
      <div class="image-box-type-one">
-        <img src="images/red-velvet.jpg" alt="Red Velvet">
+        <img src="images/red-velvet.jpg" alt="Red Velvet" class="cakes-image">
         </div>
         <div class="product-name"><%= @red_velvet.type %></div>
         <p><%= @red_velvet.description %></p>
