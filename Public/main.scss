@@ -85,7 +85,11 @@ body, html {
   font-size: 40px;
   font-style: bold;
   text-align: center;
-
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-left: 185px;
 }
 
 //STYLE FOR LAYOUT OF PRODUCTS
@@ -249,6 +253,8 @@ img, .text-container {
 
 }
 
+
+
 //DROPCAP
 .firstcharacter {
     color: rgb(9, 248, 9);
@@ -294,18 +300,20 @@ p {
   }
 
 //STYLE FOR INPUT FIELD
-  #name {
+  #name:focus {
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     color: rgb(9, 248, 9);
+    border-bottom: 1px solid rgb(9, 248, 9);
   }
 
  //STYLE FOR INPUT FIELD
 
-  #mail {
+  #mail:focus {
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     color: rgb(9, 248, 9);
+    border-bottom: 1px solid rgb(9, 248, 9);
   }
 
 //STYLE FOR MATERIALIZE BUTTON
@@ -345,3 +353,56 @@ p {
         font-size: 20px;
         color: rgb(9, 248, 9);
   }
+
+  .contact-form {
+    margin-left: 40px;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #474646;
+    padding: 20px;
+}
+
+input[type=submit] {
+  background-color: rgb(9, 248, 9);
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 12px 20px;
+  border: none;
+  box-shadow: 0 5px 5px 0 #000;
+  cursor: pointer;
+}
+
+input[type=text], select, textarea {
+  width: 50%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=text] {
+  font-family: 'Courier New', Courier, monospace;
+  color: #f2f2f2;
+}
+
+textarea {
+  font-family: 'Courier New', Courier, monospace;
+  color: #f2f2f2;
+
+}
+
+textarea:focus {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(9, 248, 9);
+}
+
+
+
+
+ input[type=submit]:hover {
+  background-color: #14a01b;
+}

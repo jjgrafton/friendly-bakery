@@ -10,7 +10,7 @@ end
 get "/bread" do
     @page_title = "Friendly Bakery: Bread"
     @rustica = Bread.new("Cabernet Rustica", "Crusty on the outside, soft and airy inside. Made with Cabernet starter from Long Island vineyard.")
-    @miche = Bread.new("Chardonnay Miche", "Dark wheat-based wine bread. Made with Chardonnay starter from Long Island vineyard.")
+    @miche = Bread.new("Chardonnay Miche", "A customer favorite. Dark wheat-based wine bread. Made with Chardonnay starter from Long Island vineyard.")
     @levain = Bread.new("Levain Locale", "The ultimate French table bread. Flavorful and chewy crust, dense interior with faint sour note.")
     bread_array = [@rustica, @miche, @levain]
     erb :bread
@@ -35,7 +35,7 @@ end
 
 get "/muffins" do
     @page_title = "Friendly Bakery: Muffins"
-    @blueberry = Muffins.new("Blueberry Muffins", "Buttermilk muffins filled with plump, juicy blueberries.")
+    @blueberry = Muffins.new("Blueberry Muffins", "One of our best-sellers. Buttermilk muffins filled with plump, juicy blueberries.")
     @banana_nut = Muffins.new("Banana Nut Mini Loaves", "A breakfast favorite made with ripe bananas and chopped pecans.")
     @cheddar_biscuit = Muffins.new("Cheddar Biscuits", "Light and buttery biscuits laced with sharp cheddar cheese.")
     muffins_array = [@blueberry, @banana_nut, @cheddar_biscuit]
@@ -53,21 +53,21 @@ get "/contact" do
 end
 
 
-# post "" do
-#     @email = params[:email]
-#   @recipes = params[:recipes]
+post "/email" do
+    @email = params[:email]
+  @recipes = params[:recipes]
 
-#   from = Email.new(email: jamiegrafton@gmail.com)
-#   to = Email.new(email: @email)
-#   subject = 'Friendly Bakery REcipes'
-#   content = Content.new(type: 'text/plain', value: @recipes)
-#   mail = Mail.new(from, subject, to, content)
+  from = Email.new(email: "jamiegrafton@gmail.com")
+  to = Email.new(email: @email)
+  subject = 'Friendly Bakery Recipes'
+  content = Content.new(type: 'text/plain', value: @recipes)
+  mail = Mail.new(from, subject, to, content)
 
-#   sg = SendGrid::API.new(api_key: ENV['NEW_SENDGRID_API_KEY'])
-#   response = sg.client.mail._('send').post(request_body: mail.to_json)
-#   if response.status_code == 401
-#     error_hash = JSON.parse(response.body)
-#     @errors = error_hash["errors"]
-#   end 
-# end 
-# end  
+  sg = SendGrid::API.new(api_key: ENV['NEW_SENDGRID_API_KEY'])
+  response = sg.client.mail._('send').post(request_body: mail.to_json)
+  if response.status_code == 401
+    error_hash = JSON.parse(response.body)
+    @errors = error_hash["errors"]
+  end 
+end 
+  
