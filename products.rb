@@ -49,8 +49,5 @@ end
 
 
 
-bread_array = [rustica, miche, levain]
-cookies_array = [black_and_white, rugelach, donuts]
-cakes_array = [blackout, red_velvet]
-muffins_array = [blueberry, banana_nut, cheddar_biscuit]
+
 

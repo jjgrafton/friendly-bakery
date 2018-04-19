@@ -9,7 +9,8 @@ body, html {
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start; }
+  justify-content: flex-start;
+  align-items: baseline; }
 
 .header {
   display: flex;
@@ -76,6 +77,24 @@ ul {
 
 .dropdown:hover > .drop-nav {
   display: block; }
+
+.product-name {
+  font-family: 'Courier New', Courier, monospace;
+  color: #09f809; }
+
+.price {
+  font-family: 'Courier New', Courier, monospace;
+  color: #09f809;
+  font-size: 25px;
+  text-align: center; }
+
+.product-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.product {
+  width: 200px; }
 
 /*slideshow styles*/
 .slideshow {

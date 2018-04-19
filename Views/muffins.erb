@@ -1,8 +1,35 @@
-<div class="container"></div>
+<div class="container">
     <div id="friendly-header">
         friendly
     </div>
     <div id="bakery-header">
         MUFFINS
+    </div>
+</div>
+
+<div class="product-display">
+    <div class="product">
+        <div class="image-box-type-one">
+        <img src="images/blueberry-muffin.jpg" alt="Blueberry Muffins">
+        </div>
+        <div class="product-name"><%= @blueberry.type %></div>
+        <p><%= @blueberry.description %></p>
+        <p class="price"><%= @blueberry.price %></p>
+    </div>
+    <div class="product">
+     <div class="image-box-type-one">
+        <img src="images/Banana-Mini-Loaves.png" alt="Banana Nut Mini Loaves">
+        </div>
+        <div class="product-name"><%= @banana_nut.type %></div>
+        <p><%= @banana_nut.description %></p>
+        <p class="price"><%= @banana_nut.price %></p>
+    </div>
+    <div class="product">
+     <div class="image-box-type-one">
+        <img src="images/cheddar-biscuit.jpg" alt="Cheddar Biscuit">
+        </div>
+        <div class="product-name"><%= @cheddar_biscuit.type %></div>
+        <p><%= @cheddar_biscuit.description %></p>
+        <p class="price"><%= @cheddar_biscuit.price %></p>
     </div>
 </div>

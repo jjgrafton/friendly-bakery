@@ -1,8 +1,35 @@
-<div class="container"></div>
+<div class="container">
     <div id="friendly-header">
         friendly
     </div>
     <div id="bakery-header">
         BREAD
+    </div>
+</div>
+
+<div class="product-display">
+    <div class="product">
+        <div class="image-box-type-one">
+        <img src="images/rustica.jpeg" alt="Cabernet Rustica">
+        </div>
+        <div class="product-name"><%= @rustica.type %></div>
+        <p><%= @rustica.description %></p>
+        <p class="price"><%= @rustica.price %></p>
+    </div>
+    <div class="product">
+     <div class="image-box-type-one">
+        <img src="images/miche.jpeg" alt="Cabernet Rustica">
+        </div>
+        <div class="product-name"><%= @miche.type %></div>
+        <p><%= @miche.description %></p>
+        <p class="price"><%= @miche.price %></p>
+    </div>
+    <div class="product">
+     <div class="image-box-type-one">
+        <img src="images/levain.jpeg" alt="Cabernet Rustica">
+        </div>
+        <div class="product-name"><%= @levain.type %></div>
+        <p><%= @levain.description %></p>
+        <p class="price"><%= @levain.price %></p>
     </div>
 </div>

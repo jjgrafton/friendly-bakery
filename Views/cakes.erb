@@ -1,8 +1,27 @@
-<div class="container"></div>
+<div class="container">
     <div id="friendly-header">
         friendly
     </div>
     <div id="bakery-header">
         CAKES
+    </div>
+</div>
+
+<div class="product-display">
+    <div class="product">
+        <div class="image-box-type-one">
+        <img src="images/brooklyn-blackout.jpg" alt="Brooklyn Blackout">
+        </div>
+        <div class="product-name"><%= blackout.type %></div>
+        <p><%= @blackout.description %></p>
+        <p class="price"><%= @blackout.price %></p>
+    </div>
+    <div class="product">
+     <div class="image-box-type-one">
+        <img src="images/red-velvet.jpg" alt="Red Velvet">
+        </div>
+        <div class="product-name"><%= @red_velvet.type %></div>
+        <p><%= @red_velvet.description %></p>
+        <p class="price"><%= @red_velvet.price %></p>
     </div>
 </div>
