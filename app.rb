@@ -56,9 +56,9 @@ end
 post "/email" do
   @email = params[:email]
   @recipes = (params :recipes)
-  from = Email.new(email: jamiegrafton@gmail.com)
+  from = Email.new(email: 'jamiegrafton@gmail.com')
   to = Email.new(email: @email)
-  subject = 'Friendly Bakery REcipes'
+  subject = 'Friendly Bakery Recipes'
   content = Content.new(type: 'text/html', value: @recipes)
   mail = Mail.new(from, subject, to, content)
   sg = SendGrid::API.new(api_key: ENV['NEW_SENDGRID_API_KEY'])
@@ -72,4 +72,4 @@ post "/email" do
   puts response.parsed_body
   puts response.headers
 end 
-end  
+  
